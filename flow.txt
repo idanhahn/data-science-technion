@@ -1,0 +1,47 @@
+
+
+Start with Docker file for tensorflow
+
+    ## https://hub.docker.com/r/tensorflow/tensorflow/tags/
+    FROM tensorflow/tensorflow:latest-py3
+
+    WORKDIR /app
+
+    COPY . .
+
+    CMD ["python", "tensor-hello-world.py"]
+
+#what's gcr.io (on the getting started)
+
+# google cloud registry
+
+
+sudo docker build -t tensor-helloworld .
+sudo docker run -it tensor-helloworld
+
+
+what will happen?
+
+sudo docker run -it tensor-helloworld bash
+
+and than:
+python tensor-hello-world.py
+
+
+what's Neural network:
+
+tensorflow playground
+
+
+class project:
+https://www.tensorflow.org/get_started/tflearn
+
+check how irises actually looks like
+
+
+move to class ex: creating a xor data set and xor model
+
+
+
+
+
